@@ -234,6 +234,96 @@ const questions = [
             { text: 'Session layer', correct: true },
             { text: 'Transport layer', correct: false }
         ]
+    },
+    {
+        question: 'Which of the following topologies required termination?',
+        answers: [
+            { text: 'Star', correct: false },
+            { text: 'Bus', correct: true },
+            { text: 'Mesh', correct: false },
+            { text: 'Ring', correct: false }
+        ]
+    },
+    {
+        question: 'Star-bus is an example of a _______________ topology.',
+        answers: [
+            { text: 'transitional', correct: false },
+            { text: 'system', correct: false },
+            { text: 'hybrid', correct: true },
+            { text: 'rampant', correct: false }
+        ]
+    },
+    {
+        question: 'Of the topologies listed, which one is the most fault-tolerant?',
+        answers: [
+            { text: 'Point-to-point', correct: false },
+            { text: 'Bus', correct: false },
+            { text: 'Star', correct: true },
+            { text: 'Ring', correct: false }
+        ]
+    },
+    {
+        question: 'What term is used to describe the interconnectivity of network components?',
+        answers: [
+            { text: 'Segmentation', correct: false },
+            { text: 'Map', correct: false },
+            { text: 'Topology', correct: true },
+            { text: 'Protocol', correct: false }
+        ]
+    },
+    {
+        question: 'Coaxial cables all have a(n) _______________ rating.',
+        answers: [
+            { text: 'resistance', correct: false },
+            { text: 'watt', correct: false },
+            { text: 'speed', correct: false },
+            { text: 'Ohm', correct: true }
+        ]
+    },
+    {
+        question: 'Which of the following is a type of coaxial cable?',
+        answers: [
+            { text: 'RJ-45', correct: false },
+            { text: 'RG-6', correct: true },
+            { text: 'BNC', correct: false },
+            { text: 'Barrel', correct: false }
+        ]
+    },
+    {
+        question: 'Which network topology connected nodes with a ring of cable?',
+        answers: [
+            { text: 'Star', correct: false },
+            { text: 'Bus', correct: false },
+            { text: 'Ring', correct: true },
+            { text: 'Mesh', correct: false }
+        ]
+    },
+    {
+        question: 'Which network topology is most commonly seen only in wireless networks?',
+        answers: [
+            { text: 'Star', correct: false },
+            { text: 'Bus', correct: false },
+            { text: 'Ring', correct: false },
+            { text: 'Mesh', correct: true }
+        ]
+    },
+    {
+        question: 'Which of the following is a duplex fiber-optic connection?',
+        answers: [
+            { text: 'LC', correct: true },
+            { text: 'RJ-45', correct: false },
+            { text: 'ST', correct: false },
+            { text: 'SC', correct: false }
+        ]
+    },
+    {
+        question: 'What is the most common category of UTP used in new cabling installations?',
+        answers: [
+            { text: 'Cat 3', correct: false },
+            { text: 'Cat 5e', correct: false },
+            { text: 'Cat 6', correct: true },
+            { text: 'Cat 7', correct: false }
+        ]
     }
     
     
