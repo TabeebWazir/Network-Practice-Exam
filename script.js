@@ -324,6 +324,94 @@ const questions = [
             { text: 'Cat 6', correct: true },
             { text: 'Cat 7', correct: false }
         ]
+    },
+    {
+        question: 'Ethernet hubs took an incoming packet and _______________ it out to the other connected ports.',
+        answers: [
+            { text: 'amplified', correct: false },
+            { text: 'repeated', correct: true },
+            { text: 'filtered', correct: false },
+            { text: 'distorted', correct: false }
+        ]
+    },
+    {
+        question: 'What is at the beginning of the Ethernet frame?',
+        answers: [
+            { text: 'MAC address', correct: false },
+            { text: 'Length', correct: false },
+            { text: 'Preamble', correct: true },
+            { text: 'CRC', correct: false }
+        ]
+    },
+    {
+        question: 'What type of bus did 10BASE-T use?',
+        answers: [
+            { text: 'Bus', correct: false },
+            { text: 'Ring', correct: false },
+            { text: 'Star bus', correct: true },
+            { text: 'Bus ring', correct: false }
+        ]
+    },
+    {
+        question: 'What was the maximum distance that could separate a 10BASE-T node from its hub?',
+        answers: [
+            { text: '50 meters', correct: false },
+            { text: '100 meters', correct: true },
+            { text: '185 meters', correct: false },
+            { text: '200 meters', correct: false }
+        ]
+    },
+    {
+        question: 'When used for Ethernet, unshielded twisted pair uses what type of connector?',
+        answers: [
+            { text: 'RG-58', correct: false },
+            { text: 'RJ-45', correct: true },
+            { text: 'RJ-11', correct: false },
+            { text: 'RS-232', correct: false }
+        ]
+    },
+    {
+        question: 'What was the maximum number of nodes that could be connected to a 10BASE-T hub?',
+        answers: [
+            { text: '1024', correct: true },
+            { text: '500', correct: false },
+            { text: '100', correct: false },
+            { text: '185', correct: false }
+        ]
+    },
+    {
+        question: 'Which of the following is not true of crossover cables?',
+        answers: [
+            { text: 'They are a type of twisted pair cabling.', correct: false },
+            { text: 'They reverse the sending and receiving wire pairs.', correct: false },
+            { text: 'They are used to connect switches.', correct: false },
+            { text: 'Both ends of a crossover cable are wired according to the TIA/EIA 568B standard.', correct: true }
+        ]
+    },
+    {
+        question: 'Which of the following connectors were used by 10BASE-FL cable?',
+        answers: [
+            { text: 'SC, ST', correct: true },
+            { text: 'RJ-45, RJ-11', correct: false },
+        ]
+    },
+    {
+        question: 'Which networking devices can use the Spanning Tree Protocol (STP)?',
+        answers: [
+            { text: 'Hubs', correct: false },
+            { text: 'Media converters', correct: false },
+            { text: 'UTP cables', correct: false },
+            { text: 'Switches', correct: true }
+        ]
+    },
+    {
+        question: 'What device directs packets based on MAC addresses?',
+        answers: [
+            { text: 'Router', correct: false },
+            { text: 'Hub', correct: false },
+            { text: 'Repeater', correct: false },
+            { text: 'Switch', correct: true }
+        ]
     }
     
     
